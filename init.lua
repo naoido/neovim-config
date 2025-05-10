@@ -13,6 +13,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 vim.opt.number = true
 
+vim.o.expandtab = true
+vim.o.tabstop = 4
+vim.o.shiftwidth = 4
+
 require("lazy").setup({
   spec = {
     { { import = "plugins" } }

@@ -39,7 +39,7 @@ return {
           map('n', 'gt', vim.lsp.buf.type_definition, 'Go to Type Definition')
           map('n', 'gr', vim.lsp.buf.references, 'Show References')
           map('n', '<leader>lrn', vim.lsp.buf.rename, 'LSP Rename')
-          map({'n', 'v'}, '<leader>lca', vim.lsp.buf.code_action, 'LSP Code Action')
+          map({'n', 'v'}, '<leader>.', vim.lsp.buf.code_action, 'LSP Code Action')
 
           map('n', '[d', vim.diagnostic.goto_prev, 'Previous Diagnostic')
           map('n', ']d', vim.diagnostic.goto_next, 'Next Diagnostic')
