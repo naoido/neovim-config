@@ -18,6 +18,11 @@ noice     : コマンドラインとか通知がいい感じに
 ```
 
 ## その他
+### 依存関係
+```
+# telescopeの全文検索に必要
+$ brew install ripgrep
+```
 ### Terminal(zsh)
 ```
 Theme: Iceberg
